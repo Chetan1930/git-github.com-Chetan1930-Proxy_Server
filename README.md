@@ -5,19 +5,19 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 
 ## Index
 
-- [Project Theory](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#project-theory)
-- [How to Run](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#How-to-Run)
-- [Demo](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#Demo)
-- [Contributing](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#contributing)
+- [Project Theory] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#project-theory)```
+- [How to Run] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#How-to-Run)```
+- [Demo] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#Demo)```
+- [Contributing] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#contributing)```
 
 ## Project Theory
 
-[[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index)
+```[[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index)```
 
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG)
+```![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG) ```
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -78,7 +78,7 @@ $ ./proxy <port no.>
 
 ## Contributing
 
-[[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index)
+```[[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index) ```
 
 Feel free to add some useful. You can see `How this code can be extended`. Use ideas from there and feel free to fork and CHANGE. 
 
