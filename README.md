@@ -5,19 +5,17 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 
 ## Index
 
-- [Project Theory] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#project-theory)```
-- [How to Run] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#How-to-Run)```
-- [Demo] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#Demo)```
-- [Contributing] ```(https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#contributing)```
+- [Project Theory]
+- [How to Run] 
+- [Demo]
+- [Contributing] 
 
 ## Project Theory
 
-```[[Back to top]](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient#index)```
 
 ##### Introduction
 
-##### Basic Working Flow of the Proxy Server:
-```![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG) ```
+##### Basic Working Flow of the Proxy Server:`
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -72,7 +70,6 @@ $ ./proxy <port no.>
 - To run the proxy without cache Change the name of the file (`proxy_server_with_cache.c to proxy_server_without_cache.c`) MakeFile.
 
 ## Demo
-![](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/cache.png)
 - When website is opened for the first time (`url not found`) then cache will be miss.
 - Then if you again open that website again then `Data is retrieved from the cache` will be printed.
 
